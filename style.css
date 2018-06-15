@@ -17,9 +17,14 @@ img {
     flex-flow: row wrap;
     justify-items: center;
     align-items: center;
+    border: 1px solid transparent;
     transition: 1s;
     transform: rotateX(55deg) rotateZ(-45deg) rotateY(10deg);
     transform-style: preserve-3d;
+}
+.container:hover {
+    border: 1px solid salmon;
+    cursor: help;
 }
 .container-origin {
     transform: rotate(0);

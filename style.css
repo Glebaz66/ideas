@@ -19,7 +19,7 @@ img {
     align-items: center;
     border: 1px solid transparent;
     transition: 1s;
-    transform: rotateX(55deg) rotateZ(-45deg) rotateY(10deg);
+    transform: rotate(0);
     transform-style: preserve-3d;
 }
 .container:hover {
@@ -27,7 +27,7 @@ img {
     cursor: help;
 }
 .container-origin {
-    transform: rotate(0);
+    transform: rotateX(55deg) rotateZ(-45deg) rotateY(10deg);
   }
 .card {
     width: 230px;
